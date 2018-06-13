@@ -1,0 +1,139 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css';
+body{
+  margin: 0;
+  font-family: 'Alegreya', sans-serif;
+}
+
+h4{
+  font-size: 15px;
+}
+
+header{
+  color: black;
+  font-family: 'Alegreya', sans-serif;
+  margin: 0;
+  background: url(img/index.png);
+  background-attachment: fixed;
+  padding: 0.09px 0;
+  box-shadow: 0px 5px 10px #cccccc;
+  border-style: groove;
+  border-width: 0px 0px 4px 0px;
+  opacity: 0.8;
+  border-color: #cccccc;
+  text-align: center;
+  background-color: #ffecbd;
+}
+header .icon{
+  -webkit-animation: infinite pulse 0.5s;
+  animation:  infinite pulse 0.5s;
+  animation-play-state: running;
+}
+
+#showcase{
+  background-color: #ffffff;
+}
+.ctn img{
+    width: 100%;
+    min-height: 150px;
+    min-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#par-one{
+  background-color:#dedede;
+}
+#par-one img{
+  width: 110px;
+  padding-top: 4%;
+}
+#par-one h4{
+  padding: 5%;
+  line-height: 1.5em;
+}
+#par-one .icon{
+  animation-play-state: paused;
+}
+#par-one .icon:hover {
+    -webkit-animation: infinite pulse 0.5s;
+    animation:  infinite pulse 0.5s;
+    animation-play-state: running;
+}
+#par-two{
+  background-color:#eaeaea;
+}
+#par-two h4{
+  padding: 5%;
+  line-height: 1.5em;
+}
+#par-two img{
+  width: 100%;
+  padding-top: 6%;
+}
+#par-two .icon{
+  animation-play-state: paused;
+}
+#par-two .icon:hover {
+    -webkit-animation: infinite flip 1s;
+    animation:  infinite flip 1s;
+    animation-play-state: running;
+}
+#par-three{
+  background-color:#dedede;
+}
+#par-dec, ul, li{
+  list-style: none;
+}
+#par-dec ul li:hover{
+  font-weight: bolder;
+}
+#par-three img{
+  width: 300px;
+  padding-top: 9%;
+}
+#par-three .icon{
+  animation-play-state: paused;
+}
+#par-three .icon:hover {
+    -webkit-animation: infinite bounce 1s;
+    animation:  infinite bounce 1s;
+    animation-play-state: running;
+}
+#par-four{
+  background-color:#eaeaea;
+}
+#par-four h4{
+  padding: 5%;
+  line-height: 1.5em;
+}
+#par-four img{
+  width: 150px;
+  padding-top: 1%;
+}
+#par-four .icon{
+  animation-play-state: paused;
+}
+#par-four .icon:hover {
+    -webkit-animation: infinite flash 1.5s;
+    animation:  infinite flash 1.5s;
+    animation-play-state: running;
+}
+
+footer{
+  background-color: #ffecbd;
+  text-align: center;
+  margin: auto;
+  padding: 11px;
+}
+footer a{
+  color: blue;
+}
+footer a:hover{
+  text-decoration: none;
+  color: #000;
+  font-weight: bolder;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Affordable and Professional web design">
+  <meta name="keywords" content="web design, affordable web design, professional web design">
+  <meta name="author" content="Anim Mostafa">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>My Web Design | Send Me Nudes</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <script>
+  $(document).ready(function(){
+      $("#navbar").click(function(){
+          $("#button_toggle").toggle("slow");
+      });
+  });
+
+  </script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Dr. <span class="highlight">Sinbad</span> Tornado</h1>
+      </div>
+      <div id="navbar" onclick="myFunction()" class="dropbtn"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></div>
+      <nav id="button_toggle" class="dropdown-content">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="current"><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Send Me Nudes</h1>
+      <form>
+        <input type="email" placeholder="Enter Bobs and Vagene Pix Plz">
+        <button type="submit"class="button_1">Squeeze It</button>
+      </form>
+    </div>
+  </section>
+<section id="main">
+  <div class="container">
+    <div class="box">
+      <article id="main-col">
+        <h1 class="page-title">Types of Nudes</h1>
+        <ul id="services">
+          <li>
+            <h3>Half Nude</h3>
+            <p>Just send me half nudes and you are dead! Trust me on this bro!</p>
+            <p>Pricing: $1000 - $3000 ----> don't even think about the price hombre!</p>
+          </li>
+          <li>
+            <h3>Quarter Nude</h3>
+            <p>Still you are dead! I won't tolerate this nuisance! I want full mean FULL!!!!!! Got it?</p>
+            <p>Pricing: Your mom!</p>
+          </li>
+          <li>
+            <h3>Full Nude</h3>
+            <p>I am Happy! Be my Regular Client! I will pay you huge amount money! Trust me! :D</p>
+            <p>Pricing: $100 per month</p>
+          </li>
+        </ul>
+      </article>
+
+      <aside id="sidebar">
+        <div class="dark">
+          <h3>Send Me Chotis</h3>
+          <form action="mail_handler.php" method="post" name="form" class="form-box">
+            <div>
+              <label for="name">Name</label><br>
+              <input type="text" name="name" class="inp" placeholder="Enter Your Name" required>
+
+            <div>
+              <label for="email">Email ID</label><br>
+              <input type="email" name="email" class="inp" placeholder="Enter Your Email">
+            </div>
+            <div>
+              <label for="phone">Phone</label><br>
+			        <input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
+            </div>
+            <div>
+              <label for="message">Choti</label><br>
+              <textarea placeholder="Your Choti goes here....."></textarea>
+            </div>
+            <input type="submit" name="submit" value="Send" class="button_1">
+            <!-- <button class="button_1" type="submit">Send</button> -->
+          </form>
+        </div>
+      </aside>
+
+  </div>
+</section>
+
+<footer>
+  <div class="lund">
+  Back To Landing Page <a href="index.html"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+  </div>
+  <p>Dr. Sinbad Tornado, Copyright &copy 2017</p>
+</footer>
+
+</body>
+</html>
